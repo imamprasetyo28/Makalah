@@ -1,0 +1,35 @@
+Pseudocode Dan Algoritma
+========================
+
+Algoritma merupakan salah satu dasar untuk menuju dunia pemrograman.
+Fungsinya untuk memecahkan masalah ataupun membuat pola pikir jalan secara terstruktur untuk melakukan target yang kita inginkan.
+Pseudocode adalah sebuah konvensi terstruktur agar algoritma kita mudah dibaca.
+Istilah pseudocode terdiri dari dua gabungan kata, yaitu kata pseudo yang berarti semu dan kata code yang berarti kode.
+Pseudocode atau kode semu dapat diartikan sebagai deskripsi dari algoritma pemrograman yang dituliskan secara sederhana dibandingkan dengan sintaksis bahasa pemrograman.
+Tujuannya, agar lebih mudah dibaca dan dipahami manusia. 
+
+~ Notasi
+    1. INPUT / READ / BACA
+        Digunakan untuk menunjukan proses memasukan suatu isi variabel.
+    2.OUTPUT / PRINT / DISPLAY
+        Digunakan untuk menunjukan proses keluaran yang terjadi.
+    3. WHILE
+        Digunakan untuk sebuah perulangan yang memiliki iterasi awal.
+    4. FOR
+        Digunakan untuk sebuah perulangan perhitungan iterasi.
+    5. REPEAT – UNTIL
+        Digunakan untuk sebuah perulangan yang memiliki kondisi akhir.
+    6. IF – THEN – ELSE
+        Digunakan untuk mengambil sebuah keputusan dari beberapa kondisi.
+
+~ Contoh 
+    PROGRAM GANJIL-GENAP
+
+    READ MIN_NUMBER EQUAL TO 1
+    READ MAX_NUMBER EQUAL TO 10
+
+    FOR MIN_NUMBER UNTIL MAX_NUMBER
+    IF NUMBER MODULO 2 EQUAL TO 1
+    PRINT GANJIL
+    ELSE
+    PRINT GENAP
